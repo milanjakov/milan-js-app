@@ -11,3 +11,13 @@ let pokemonList = [
      type: ['Water'] }    
 ];
 
+// For loop to print out the details of each pokemon
+for ( let i = 0; i < pokemonList.length; i++) {
+  document.write("<p>" + $`{pokemonlist [i].Height}` + "</p")
+}
+// For loop to print out which pokemon is the biggest
+for ( let i = 0; i < pokemonList.length;  i++) {
+  if (pokemonList[i].Height>7) {
+    document.write("<p>" + `${pokemopnList[i].name} Wow, that's big` + "</p")
+  }
+}
